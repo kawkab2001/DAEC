@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files — tracked via Git LFS (see below)
+# To enable LFS: git lfs install && git lfs track "data/*.csv"
+data/*.parquet
+data/*.feather
+
+# Model outputs and artifacts
+outputs/
+contextual_hallucination_detector_final/
+dataset_analysis/
+cross_domain_lodo/
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Hugging Face model cache
+.cache/
+huggingface/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Secrets
+.env
+*.key
